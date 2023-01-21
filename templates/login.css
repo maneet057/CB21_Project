@@ -55,8 +55,9 @@ input, button {
   margin-left: 30vw;
   /* vertical align */
   height: 70vh;
-  margin-top: 15vh;
-  border-radius: 20px
+  margin-top: 10vh;
+  border-radius: 20px;
+  
 }
 
 #submit, #create-acct-btn {
