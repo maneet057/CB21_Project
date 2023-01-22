@@ -16,8 +16,8 @@ a {
     background-color: transparent;
 }
 .drop-zone {
-    max-width: 400px;
-    height: 300px;
+    width: 50%;
+    height: 50%;
     padding: 25px;
     display: flex;
     align-items: center;
@@ -30,19 +30,20 @@ a {
     color: #cccccc;
     border: 3px dashed #4640b9;
     border-radius: 10px;
-    position: relative;
-    left: 23%;
-    right: 50%;
+    position: absolute;
+    left: 25%;
+    bottom: 3%;
     background-color: rgba(213, 235, 255, 0.658);
   }
   .image{
     height: 50px;
     width: 50px;
-    position: absolute;
+    
     top:90px;
   }
   .drop-zone__prompt{
     color: black;
+    font-size: 1em;
   }
   .drop-zone--over {
     border-style: solid;
@@ -107,9 +108,11 @@ label {
     background-color: rgb(147 192 243 / 75%);
     border-radius: 30px;
     position: absolute;
-    bottom: 100px;
+    top: 20%;
+    bottom: 10%;
     left: 25%;
     width: 50%;
+    height: 60%;
 }
 
 .btn-primary {
@@ -132,4 +135,11 @@ label {
 .carousel-control-next-icon {
     border-radius: 30px;
     background-color: rgb(163, 195, 231, 0.9);
+}
+.responsive{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
 }
