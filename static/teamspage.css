@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 body{
     min-height: 100vh;
@@ -105,4 +105,19 @@ font-size:1.5rem;
 .btn-btn-primary{
  text-align: right;
 }
+ */
+ url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+ * {
+     margin: 0;
+     padding: 0;
+ 
+     box-sizing: border-box;
+ }
+ h1{
+     color: #1c68b3";
+ }
+ body {
+     background-color: #ffffff;
+     font-family: 'Poppins', sans-serif;
+ }
