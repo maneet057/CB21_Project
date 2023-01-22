@@ -7,16 +7,13 @@ body {
   }
   
   .contact-form {
-    padding: 20px 30px;
-    
-    
-    max-width: 500px;
+    margin-right: 5px;
+    margin-left: 5px;
+    max-width: 530px;
     background-color: rgb(147 192 243 / 75%);
     border-radius: 30px;
     position: absolute;
-    top: 190px;
-    left: 32%;
-    width: 50%;
+    top: 300px;
   }
   .contact-form .form-input,
   .form-text-area {
@@ -59,4 +56,9 @@ body {
   .h5{
     font-size: 25px;
   }
-  
+  h5{
+    margin-top:10px;
+  }
+  .container{
+    height: 55px;
+  }
