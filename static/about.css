@@ -1,7 +1,10 @@
-body {
-  background-image: url("../static/2.jpg");
-  background-repeat: no-repeat;
-}
+
+  body {
+    background-image: url("../static/bott.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
   .contact-form-wrapper {
     padding: 100px 0;
   }

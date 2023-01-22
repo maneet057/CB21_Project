@@ -1,6 +1,7 @@
 body {
   background-image: url("../static/bott.jpg");
   background-repeat: no-repeat;
+  width: 100%;
 }
   .contact-form-wrapper {
     padding: 100px 0;
@@ -13,7 +14,7 @@ body {
     background-color: rgb(147 192 243 / 75%);
     border-radius: 30px;
     position: absolute;
-    top: 300px;
+    top: 200px;
   }
   .contact-form .form-input,
   .form-text-area {
@@ -29,6 +30,7 @@ body {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    margin-top: 10px;
 
   }
   
@@ -55,10 +57,9 @@ body {
   }
   .h5{
     font-size: 25px;
+    margin-top: 10px;
   }
-  h5{
-    margin-top:10px;
-  }
+  
   .container{
     height: 55px;
   }

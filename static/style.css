@@ -1,5 +1,7 @@
 .navbar {
     background-color: rgb(35, 80, 106);
+    margin-right: 3px;
+    margin-right: 3px;
 }
 .navbar-brand{
     display: inline-block;
@@ -118,6 +120,8 @@ label {
     color: #fff;
     background-color: #4080c3;
     border-color: #0553a2;
+    display: inline;
+    margin-left: 2px;
 }
 
 .navbar-item {
