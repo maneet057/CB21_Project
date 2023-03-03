@@ -1,6 +1,47 @@
 
+.content
+{
+    max-width:80%;
+    margin:auto;
+    display:flex;
+    margin-top:10px;
+}
+.box1
+{
+    
+    height:fit-content;
+    width:900px;
+    margin:auto;
+    height:50%;
+    padding:20px;
+} 
+
+.text
+  {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #121B46;
+  }
+
+  .image
+  {
+      object-fit: contain;
+      height:600px; 
+      width: 550px;
+      margin-right:20%;
+  }
   
-  
+  .image_div
+  {
+      height:100%;
+      width:57%;
+      margin:auto;
+      margin-right:5%;   
+  }
+
   .card {
     position: relative;
     display: flex;
@@ -9,6 +50,7 @@
     width: 300px;
     height: 200px;
     border: 1px solid #ccc;
+    border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
   }
@@ -17,6 +59,7 @@
     border: 2px solid #FFD700;
     transform: translate(-5px, -5px);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
   }
   
   
@@ -39,7 +82,7 @@
     background-position: 100%;
   }
   
-  .container {
+  .container1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,6 +101,7 @@
   }
   h1 {
   text-align: center;
+  font-size: 30px;
   }
   h2 {
     font-size: 28px;
@@ -69,11 +113,12 @@
     line-height: 1.5;
   }
 
-  .container {
+  .container1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 800px; 
+    flex-wrap: wrap;
    
   }
   
@@ -88,6 +133,15 @@
     100% { opacity: 1; }
   }
   
+  @media screen and (max-width: 768px) {
+    .img1 {
+      display: none;
+    }
+    
+    .text {
+      width: 100%;
+    }
+  }
   /* img {
     width: 50px;
     height: 50px;
@@ -247,7 +301,7 @@
   }
   .team-section h1{
     font-size: 30px;
-    text-transform: uppercase; 
+    /* text-transform: uppercase;  */
      display: inline-block;
     border-bottom: 5px solid;
     /* padding-bottom: 10px; */
@@ -302,3 +356,25 @@
       width: 100%;
     }
   }
+ 
+  .navbar-custom {
+    padding-top: 1rem; 
+    background: #121B46;
+    margin-bottom:50px;
+}
+.nav-item
+{
+    margin-left:10px;
+    padding: 10px;
+    margin-right: 150px;
+}
+
+.logo1{
+  width: 78px;
+height: 75px;
+}
+.pers{
+  border-radius: 50%;
+}
+
+
