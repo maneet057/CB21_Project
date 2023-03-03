@@ -1,0 +1,362 @@
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    width: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 25.6%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right:30px;
+    box-shadow:  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F8F8F8;
+}
+.content h3 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content p{
+    font-size: 0.9rem;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-name{
+    text-align: center;
+    margin-top: 80px;
+}
+    
+.question-box{
+    width: 740px;
+    border: 1px solid rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 390px;
+    padding-left: 20px;
+    font-size: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.question-box p{
+    font-weight: bold;
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.answer-box{
+    width: 740px;
+    border: 1px solid rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 390px;
+    padding-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.answer-box{
+     font-size: 0.9rem;
+     font-family: monospace;
+}
+
+html, body { 
+    margin:0; 
+    background-color: #EDEDED;
+  } 
+  .navbar-nav {
+    display: flex;
+    position: relative;
+    left: 70%;
+  }
+  .nav-link {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .navbar-custom {
+    padding-top: 1rem; 
+    background: #121B46;
+    margin-bottom:50px;
+    margin-right: 10px;
+  }
+  .nav-item
+  {
+    margin-left:10px;
+    padding: 10px;
+    margin-right: 150px;
+  }
+  .content
+  {
+      max-width:80%;
+      margin:auto;
+      display:flex;
+      margin-top:10px;
+  }
+  
+  option:hover
+  {
+    background-color: #ececec;
+  }
+  
+  option
+  {
+      background-color: white;
+  }
+  
+  .image
+  {
+      object-fit: contain;
+      height:400px; 
+      margin-right:5%;
+  }
+  
+  .image_div
+  {
+      height:100%;
+      width:57%;
+      margin:auto;
+      margin-right:5%;   
+  }
+
+
+@media only screen and (max-width: 600px) {
+.content {
+    width: auto ;
+    flex-direction: column;
+    flex: 50%;
+    margin-left: 0;
+    padding-left: 20px;
+     }
+     .content p{
+        font-size: 0.5rem;
+         font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+  }
+
+  @media screen and (min-width: 321px) and (max-width: 480px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+  }
+
+  @media screen and (min-width: 820px) and (max-width: 1180px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+  }
+  @media screen and (min-width: 800px) and (max-width: 1280px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+  }
+  @media screen and (min-width: 280px) and (max-width: 653px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+  }
+  @media screen and (min-width: 138px) and (max-width: 279px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 800px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    footer
+  {
+  background: #121B46;
+  }
+  .small_text
+  {
+    margin:2%;
+  }
+  .flex-container {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .wrap    { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }  
+  .flex-item {
+    display: flex;
+    margin: 10px;
+    line-height: 100px;
+    color: white;
+  }
+  .navbar-nav a:hover {
+    border-bottom: 4px solid white;
+    color:#121B46;
+    padding: 6px 0; 
+  }
+  }
