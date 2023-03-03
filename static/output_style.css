@@ -30,17 +30,17 @@ h2{
     text-align: center;
     margin-top: 80px;
 }
-
+    
 .question-box{
-    width: 700px;
+    width: 740px;
     border: 1px solid rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 80px;
-    margin-left: 25.6%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right:30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 390px;
+    padding-left: 20px;
+    font-size: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .question-box p{
@@ -49,21 +49,21 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .answer-box{
-    width: 700px;
+    width: 740px;
     border: 1px solid rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     margin-top: 20px;
-    margin-left: 25.6%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right:30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 390px;
+    padding-left: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .answer-box{
      font-size: 0.9rem;
      font-family: monospace;
 }
+
 html, body { 
     margin:0; 
     background-color: #EDEDED;
@@ -121,119 +121,217 @@ html, body {
       margin:auto;
       margin-right:5%;   
   }
-  
-  @media (max-width:745px)
-  {
-      .content .box1
-      {
-          padding:10px;
-          width:100%;
-      }
+
+
+@media only screen and (max-width: 600px) {
+.content {
+    width: auto ;
+    flex-direction: column;
+    flex: 50%;
+    margin-left: 0;
+    padding-left: 20px;
+     }
+     .content p{
+        font-size: 0.5rem;
+         font-family: Arial, Helvetica, sans-serif;
+    }
   }
-  
-  @media (max-width:1206px){
-      .image_div
-      {
-            visibility: hidden;
-            margin:0%;
-            width:0px;
-            padding:0px;
-      }
-  
-      .image
-      {
-          height:0px;
-          width:0px;
-      }
+
+  @media only screen and (max-width: 1024px) {
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
   }
-  
-  @media (max-width:1205px) and (min-width:746px)
-  {
-      .content .box1 
-      {
-          width: 70%;
-      }
+
+  @media screen and (min-width: 321px) and (max-width: 480px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
   }
-  
-  .box1
-  {
-      
-      height:fit-content;
-      width:900px;
-      margin:auto;
-      height:50%;
-      padding:20px;
+
+  @media screen and (min-width: 820px) and (max-width: 1180px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
   }
-  
-  @media (min-width:1280px) 
-  {
-  .mb-3
-  {
-      width:80%;
+  @media screen and (min-width: 800px) and (max-width: 1280px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
   }
+  @media screen and (min-width: 280px) and (max-width: 653px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
   }
-  
-  #button
-  {
-    background: #121B46;
-    border-radius: 8px;
-    color: white;
-    width:50%;
-  
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
   }
-  .text
-  {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 58px;
-  color: #121B46;
+  @media screen and (min-width: 138px) and (max-width: 279px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
   }
-  .text2
-  {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
-  color: #000000;
-  }
-  .text3
-  {
-  padding:10px;
-  font-family: 'Vollkorn';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 50px;
-  color: #0604A6;
-  }
-  .image_small
-  {
-  width: 243px;
-  height: 65px;
-  
-  margin-top:3%;
-  }
-  .image_small1
-  {
-  width: 236px;
-  height: 85px;
-  left: 0px;
-  top: 174px;
-  margin:1%;
-  }
-  .arrow_img
-  {
-    width: 35px;
-    height: 40px;
-    left: 334px;
-    margin-top:40%;
-    
-  }
-  
-  footer
+
+  @media screen and (min-width: 1280px) and (max-width: 800px) {
+    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    .content {
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .question-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .answer-box{
+        width: auto ;
+        flex-direction: column;
+        flex: 50%;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    footer
   {
   background: #121B46;
   }
@@ -260,4 +358,5 @@ html, body {
     border-bottom: 4px solid white;
     color:#121B46;
     padding: 6px 0; 
+  }
   }
